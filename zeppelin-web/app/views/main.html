@@ -17,16 +17,17 @@ limitations under the License.
   </div>
   <div style="margin-top: -380px;">
     <h1 class="box-heading" id="welcome">
-      欢迎来到Zeppelin!
+      <div data-i18n="il8n_zeppelin.welcome"></div>
     </h1>
-    Zeppelin is web-based notebook that enables interactive data analytics.<br>You can make beautiful data-driven, interactive, collaborative document with SQL, code and even more!<br>
+    <div data-i18n="il8n_zeppelin.intro"></div>
+    <br/>
 
     <div class="row">
       <div class="col-md-4">
-        <h4>Notebook</h4>
+        <h4><div data-i18n="il8n_zeppelin.notebook"></div></h4>
 
         <div ng-controller="NavCtrl">
-          <h5><a href="javascript:void(0);" ng-click="createNewNote()" style="text-decoration: none;"><i style="font-size: 15px;" class="icon-notebook"></i> Create new note</a></h5>
+          <h5><a href="javascript:void(0);" ng-click="createNewNote()" style="text-decoration: none;"><i style="font-size: 15px;" class="icon-notebook"></i> <div data-i18n="il8n_zeppelin.create_new_note"></div></a></h5>
           <ul style="list-style-type: none;">
             <li ng-repeat="note in notes track by $index"><i style="font-size: 10px;" class="icon-doc"></i>
               <a style="text-decoration: none;" href="#/notebook/{{note.id}}">{{note.name || 'Note ' + note.id}}</a>

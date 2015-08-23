@@ -1,0 +1,11 @@
+{
+  "il8n_zeppelin": {
+    "notebook": "Notebook",
+    "interpreter": "Interpreter",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "welcome": "Welcome to Zeppelin!",
+    "intro": "Zeppelin is the next generation of analytical canvas that facilitates the creation of data-driven, interactive and collaborative documents",
+    "create_new_note": "Create new note"
+  }
+}

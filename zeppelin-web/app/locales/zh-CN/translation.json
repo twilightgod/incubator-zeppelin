@@ -1,0 +1,11 @@
+{
+  "il8n_zeppelin": {
+    "notebook": "笔记本",
+    "interpreter": "解析器",
+    "connected": "已连接",
+    "disconnected": "未连接",
+    "welcome": "欢迎使用Zeppelin！",
+    "intro": "Zeppelin是下一代的最酷炫的可视化数据分析工具！",
+    "create_new_note": "创建新的笔记本"
+  }
+}
