@@ -5,7 +5,7 @@
     "connected": "Connected",
     "disconnected": "Disconnected",
     "welcome": "Welcome to Zeppelin!",
-    "intro": "Zeppelin is the next generation of analytical canvas that facilitates the creation of data-driven, interactive and collaborative documents",
+    "intro": "Zeppelin is web-based notebook that enables interactive data analytics. You can make beautiful data-driven, interactive, collaborative document with SQL, code and even more!",
     "create_new_note": "Create new note"
   }
 }
